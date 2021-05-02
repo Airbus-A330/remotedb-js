@@ -1,6 +1,6 @@
 const fetch = require("node-fetch");
 const Constants = {
-	url: `db.hosting.xyz`,
+	url: `db.hostinghq.xyz`,
 	apiVersion: `1`
 };
 
