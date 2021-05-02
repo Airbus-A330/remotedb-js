@@ -1,0 +1,25 @@
+{
+  "name": "remotedb-js",
+  "version": "1.0.0",
+  "description": "Official Node.js API Wrapper for the Hosting HQ RemoteDB API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hosting-HQ/remotedb-js.git"
+  },
+  "keywords": [
+    "remotedb",
+    "hostinghq",
+    "api",
+    "database"
+  ],
+  "author": "Hosting HQ LLC",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Hosting-HQ/remotedb-js/issues"
+  },
+  "homepage": "https://github.com/Hosting-HQ/remotedb-js#readme"
+}
