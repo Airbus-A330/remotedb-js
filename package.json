@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/Hosting-HQ/remotedb-js/issues"
   },
-  "homepage": "https://github.com/Hosting-HQ/remotedb-js#readme"
+  "homepage": "https://github.com/Hosting-HQ/remotedb-js#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
 }
