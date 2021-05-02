@@ -1,3 +1,0 @@
-This is a placeholder for NPM publishing.
-
-Remove on next commit.
