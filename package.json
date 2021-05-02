@@ -1,6 +1,6 @@
 {
   "name": "remotedb-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Official Node.js API Wrapper for the Hosting HQ RemoteDB API",
   "main": "index.js",
   "scripts": {
