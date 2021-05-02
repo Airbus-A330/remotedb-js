@@ -21,6 +21,14 @@ exports.get = async (Authorization, key) => {
 	});
 	if (f.status == 401) {
 		throw new Error("You are unauthorized. This is most likely because of an incorrect API key or none at all.");
+	} else if (f.status == 402) {
+		throw new Error("402 - Payment Required | You need to validate your license key before using this database.");
+	} else if (f.status == 403) {
+		throw new Error("403 - Forbidden | Your token is either missing or invalid.");
+	} else if (f.status == 404) {
+		return undefined;
+	} else if (f.status == 500) {
+		return undefined;
 	}
 	f = f.json();
 	return f.data.value;
