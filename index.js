@@ -11,7 +11,7 @@ exports.get = async (Authorization, key) => {
 	const body = {
 		key: key
 	};
-	let f = await fetch(`https://${Constants.url}/v${Constants.apiVersion}/}query`, {
+	let f = await fetch(`https://${Constants.url}/v${Constants.apiVersion}/query`, {
 		method: "POST",
 		headers: {
 			"Authorization": Authorization.token,
