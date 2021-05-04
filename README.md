@@ -30,7 +30,7 @@ Hosting HQ RemoteDB is a service that provides Hosting HQ clients and non-client
 
 ```javascript
 
-const Database = require("remotedb-js);
+const Database = require("remotedb);
 const db = new Database("client_id", "token", [options]);
 
 ```
@@ -74,7 +74,7 @@ await db.delete("key");
 
 * You can set the default response object using the class. It will return what you set it to until you edit the class. 
 ```js
-const Database = require("remotedb-js");
+const Database = require("remotedb");
 const db = new Database("client_id", "token", [p, s, o, d]);
 /**
 * Options accept only boolean (true or false) values.
@@ -93,7 +93,7 @@ const db = new Database("client_id", "token", [p, s, o, d]);
 
 * You can set the default response object using the class. It will return what you set it to until you edit the class. 
 ```js
-const Database = require("remotedb-js");
+const Database = require("remotedb");
 const db = new Database("client_id", "token", [p, s, o, d]);
 /**
 * Options accept only boolean (true or false) values.
@@ -111,7 +111,7 @@ const db = new Database("client_id", "token", [p, s, o, d]);
 
 * You can set the default response object using the class. It will return what you set it to until you edit the class. 
 ```js
-const Database = require("remotedb-js");
+const Database = require("remotedb");
 const db = new Database("client_id", "token", [p, s, o, d]);
 /**
 * Options accept only boolean (true or false) values.
@@ -136,8 +136,8 @@ You can get support with RemoteDB and our packages in our Official [Discord Serv
 
 # Contributing
 
-Contribution to our packages is restricted to authorized contributors. If you believe a change needs to be made, open an [issue](https://github.com/Hosting-HQ/remotedb-py/issues) and we will review it.
+Contribution to our packages is restricted to authorized contributors. If you believe a change needs to be made, open an [issue](https://github.com/Hosting-HQ/remotedb/issues) and we will review it.
 
 # License
 
-Hosting HQ RemoteDB Python Package is Licensed under GPL-3.0. The full license can be viewed [here](https://github.com/Hosting-HQ/remotedb-py/blob/main/LICENSE)
+Hosting HQ RemoteDB Python Package is Licensed under GPL-3.0. The full license can be viewed [here](https://github.com/Hosting-HQ/remotedb/blob/main/LICENSE)
